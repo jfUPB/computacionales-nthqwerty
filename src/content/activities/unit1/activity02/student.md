@@ -1,4 +1,4 @@
-####Actividad 2
+#### Actividad 2
 
 Es de gran importancia entender el lenguaje de ensamblador par aun ingeniero en diseño de entretenimiento digital ya que este ofrece comprension y control sobre el hardware. Al momento de realizar videojuegos
 o programas es de mucha ayudar entender estos conceptos para el mayor rendimiento.
