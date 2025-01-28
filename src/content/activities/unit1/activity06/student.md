@@ -10,12 +10,12 @@ Puntero:
 En el contexto de la memoria y la computación, un puntero es una variable o registro que almacena la dirección de memoria de otro valor o dato. Es decir, en lugar de contener directamente el valor de un dato (como un número o texto), el puntero guarda la dirección de memoria donde ese dato está almacenado. Los punteros permiten manipular direcciones de memoria de manera flexible y eficiente, lo que es especialmente útil para trabajar con estructuras de datos dinámicas o grandes.
 
 Ejemplo:
-@100
-M=5
-@101
-M=10
-(Usar un "puntero" (registro A) para acceder a la memoria).
-@100        
-D=M         
-@101
-D=D+M
+@100  
+M=5  
+@101  
+M=10  
+(Usar un "puntero" (registro A) para acceder a la memoria).  
+@100         
+D=M          
+@101  
+D=D+M  
