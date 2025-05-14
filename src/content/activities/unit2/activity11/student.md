@@ -1,0 +1,7 @@
+#### Actividad 11
+
+Este semestre descubrí cómo llevar al lenguaje ensamblador Hack conceptos que antes sólo conocía en niveles más elevados, como condicionales, bucles, punteros y arreglos. Al principio me parecía que trabajar en ensamblador era un ejercicio académico sin mucha aplicación práctica, pero poco a poco entendí que es la mejor forma de ver “por dentro” cómo funciona un ordenador.
+
+Al escribir código en ensamblador pude observar paso a paso dónde se guardan y modifican los datos en la memoria, cómo se gestionan los saltos entre instrucciones y cómo se crean realmente los bucles y las ramas condicionales a nivel de hardware. Por ejemplo, al convertir un while o un for me di cuenta de que, aunque parecen distintas en un lenguaje de alto nivel, en el fondo ambas se traducen casi igual en máquina. Esa experiencia me hizo valorar las abstracciones de los lenguajes modernos como atajos que simplifican el desarrollo, pero que terminan apelotonando simples instrucciones binarias.
+
+Trabajar con punteros y arreglos me enseñó más sobre la gestión de memoria y el acceso indirecto a los datos. Ahora sé que, para mejorar el rendimiento de una aplicación interactiva o un videojuego, es clave manejar bien estos recursos, y que tener una base en ensamblador me ayuda a pensar constantemente en eficiencia y optimización, incluso cuando vuelvo a programar en C#, Python o cualquier otro lenguaje de alto nivel.
