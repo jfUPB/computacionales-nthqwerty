@@ -1,0 +1,5 @@
+#### Actividad 15
+
+Un ejemplo concreto lo encontramos en la optimización de sistemas de partículas en motores 3D: al implementar la actualización de posición y la física básica de cada partícula en lenguaje ensamblador (o bien usando intrínsecos SIMD a muy bajo nivel), se reduce drásticamente el número de instrucciones por ciclo y se aprovechan al máximo los registros y las unidades vectoriales de la CPU. Esto permite simular decenas de miles de partículas en tiempo real sin degradar la tasa de frames, algo vital para efectos de humo, fuego o explosiones en un videojuego moderno.
+
+Imagina ahora que tu motor gráfico debe mantener 60 FPS estables con docenas de enemigos, proyectiles y luces dinámicas en pantalla. Conocer ensamblador te permitiría reescribir los bucles críticos de detección de colisiones o de actualización de transformadas en un estilo “loop unrolling” que minimice accesos a memoria y evite saltos condicionales innecesarios. Al colocar datos contiguos en caché y gestionar manualmente cuándo cargar o escribir registros, mantienes la tubería de ejecución ocupada y garantizas una experiencia fluida incluso en las escenas más cargadas.
