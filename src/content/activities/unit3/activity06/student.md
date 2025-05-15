@@ -1,6 +1,6 @@
 #### Actividad 6
 
-Experimento 5 – Variables locales estáticas frente a no estáticas
+Exp 5 – Variables locales estáticas frente a no estáticas
 
 En este experimento se comparan las diferencias entre variables locales normales y variables locales con el modificador static.
 
@@ -10,11 +10,11 @@ En contraste, la variable local con static (var_estatica) también se define den
 
 Este comportamiento confirma que:
 
-Las variables locales no estáticas se destruyen al terminar la función.
+-Las variables locales no estáticas se destruyen al terminar la función.
 
-Las variables locales estáticas retienen su estado entre llamadas y no se reinician.
+-Las variables locales estáticas retienen su estado entre llamadas y no se reinician.
 
-Experimento 6 – Modificación del segmento Heap
+Exp 6 – Modificación del segmento Heap
 
 Aquí se asigna memoria dinámica para un arreglo usando new[], lo que coloca los datos en el Heap. Después se inicializan los elementos, y se imprimen tanto sus valores como sus direcciones de memoria. Luego, se libera la memoria con delete[].
 
@@ -24,23 +24,23 @@ Diferencias entre Heap y Stack:
 
 Stack:
 
-La gestión de memoria es automática.
+-La gestión de memoria es automática.
 
-La memoria se libera al salir del ámbito de la función.
+-La memoria se libera al salir del ámbito de la función.
 
-Es más rápido pero con espacio limitado.
+-Es más rápido pero con espacio limitado.
 
-Ideal para variables temporales y locales.
+-Ideal para variables temporales y locales.
 
 Heap:
 
-La gestión de memoria es manual mediante new y delete.
+-La gestión de memoria es manual mediante new y delete.
 
-Permite reservar memoria durante la ejecución.
+-Permite reservar memoria durante la ejecución.
 
-Más flexible, pero con mayor riesgo de errores si no se maneja bien.
+-Más flexible, pero con mayor riesgo de errores si no se maneja bien.
 
-Ideal para estructuras dinámicas como arreglos que cambian de tamaño.
+-Ideal para estructuras dinámicas como arreglos que cambian de tamaño.
 
 Conclusión
 
